@@ -1,7 +1,10 @@
 #include <stdio.h>
-/*
- * using the function puts to print a string
- * puts always creates a new line
+/**
+ * main - Entry point
+ *
+ * puts - prints output always creates a new line
+ *
+ * Return: Always 0 (success)
  *
  */
 int main(void)
