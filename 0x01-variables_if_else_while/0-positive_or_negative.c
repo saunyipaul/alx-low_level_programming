@@ -4,14 +4,15 @@
 #include <stdio.h>
 
 /* betty style doc for function main goes there */
+
 /**
- * main - Entry point
+ * main - Entry point of function
  *
  * If Else Statement - checks if true or not
  *
- * return: Always (0) (success)
- *
+ * Return: Always (0) (success)
  */
+
 int main(void)
 {
 	int n;
@@ -29,5 +30,6 @@ int main(void)
 	}
 	else
 		printf("%d is positive\n", n);
+	/* End of my code */
 	return (0);
 }
