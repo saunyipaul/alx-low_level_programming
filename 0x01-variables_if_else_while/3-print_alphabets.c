@@ -4,7 +4,7 @@
  *
  * for loops
  *
- * Retun: alwaays 0 success
+ * Return: alwaays 0 success
  */
 
 int main(void)
