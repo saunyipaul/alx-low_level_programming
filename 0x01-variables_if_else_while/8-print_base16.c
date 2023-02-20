@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  *
- * do while
+ * program to print hexadecimal numbers
  *
  * Return: Always 0 success
  */
