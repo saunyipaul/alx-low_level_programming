@@ -5,7 +5,7 @@
 /**
  * _islower - Entry point of function
  *
- * 'c': variable
+ * @c: variable
  *
  * Return: 1 if c lowercase 0 otherwise
  */
