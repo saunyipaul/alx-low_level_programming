@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * main - Entry point
+ * print_alphabet - Entry point of function
  *
  * print all alphabets
  *
@@ -17,5 +17,4 @@ void print_alphabet(void)
 		_putchar(i);
 	}
 	_putchar('\n');
-	return;
 }
