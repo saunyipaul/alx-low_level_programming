@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main Entry point 
+ * main - Entry point
  *
  * print out _putchar
  *
@@ -10,10 +10,10 @@
 
 int main(void)
 {
-	char text[9] = "_putchar";
+	char text[8] = "_putchar";
 	int i;
 
-	for (i = 0; i <= 9; i++)
+	for (i = 0; i <= 8; i++)
 	{
 		_putchar(text[i]);
 	}
