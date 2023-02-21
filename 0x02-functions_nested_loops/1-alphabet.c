@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * main - Entry point
  *
@@ -7,7 +8,7 @@
  * Return: always 0 success
  */
 
-int main(void)
+void print_alphabet(void)
 {
 	int i;
 
@@ -16,5 +17,5 @@ int main(void)
 		_putchar(i);
 	}
 	_putchar('\n');
-	return (0);
+	return;
 }
