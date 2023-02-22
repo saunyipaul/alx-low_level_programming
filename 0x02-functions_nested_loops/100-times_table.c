@@ -6,7 +6,7 @@
  *
  * program to print a multiplication table
  *
- * @n: variable 
+ * @n: variable
  */
 
 void print_times_table(int n)
@@ -17,7 +17,7 @@ void print_times_table(int n)
 	int result;
 	int count = 0;
 
-	if ( n > 15 || n < 0)
+	if (n > 15 || n < 0)
 	{
 		return;
 	}
@@ -27,13 +27,12 @@ void print_times_table(int n)
 		{
 			result = i * j;
 		}
-		do
-		{
+		do {
 			_putchar(result % 10 + '0');
 			result /= 10;
 			count++;
-		}
-		while (result > 0);
+		} while (result > 0);
+
 		for (k = count; k < 4; k++)
 		{
 			_putchar(' ');
