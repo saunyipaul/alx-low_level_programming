@@ -5,7 +5,7 @@
 /**
  * _isupper - Entry point of function
  *
- * @c: variable 
+ * @c: variable
  *
  * program to check for uppercase letter
  *
