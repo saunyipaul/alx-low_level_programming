@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * mul - Wntry point of function
+ * mul - Entry point of function
  * program to multiply two numbers
  * @a: variable one
  * @b: variable two
@@ -14,7 +14,7 @@ int mul(int a, int b)
 	int ans;
 
 	ans = a * b;
-	printf("%d\n", ans);
+	_putchar(ans + '0');
 
 	return (0);
 }
