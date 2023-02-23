@@ -3,7 +3,7 @@
 
 /**
  * print_diagonal - Entry point of function
- * @n: variable 
+ * @n: variable
  * program that prints \ diagonally
  */
 
