@@ -4,9 +4,8 @@
 /**
  * print_square - Entry point of function
  * @size: variable
- * program that prints squares 
+ * program that prints squares
  */
-
 void print_square(int size)
 {
 	int j;
@@ -16,7 +15,7 @@ void print_square(int size)
 	{
 		for (j = 0; j < size; j++)
 		{
-			if ( size == 0 || size < 0)
+			if (size == 0 || size < 0)
 			{
 				_putchar('\n');
 			}
