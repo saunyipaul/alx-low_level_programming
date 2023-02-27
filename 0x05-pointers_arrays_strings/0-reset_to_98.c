@@ -4,6 +4,7 @@
 /**
  * reset_to_98 - Entry of the function
  * program that updates the value it points
+ * *n: pointer
  */
 
 void reset_to_98(int *n)
