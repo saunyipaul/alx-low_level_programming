@@ -15,12 +15,12 @@ char *cap_string(char *n)
 	{
 		while (!(n[start] >= 'a' && n[start] <= 'z'))
 			start++;
-		if (n[start - 1] == ' ' || n[start] - 1 == '\t' || n[start] - 1
-				== '\n' || n[start] - 1 == ',' || n[start] - 1
-				== ';' || n[start] - 1 == '.' || n[start] - 1
-				== '!' || n[start] - 1 == '?' || n[start] - 1
-				== '"' || n[start] - 1 == '(' || n[start] - 1
-				== ')' || n[start] - 1 == '{' || n[start] - 1
+		if (n[start - 1] == ' ' || n[start - 1] == '\t' || n[start - 1]
+				== '\n' || n[start - 1] == ',' || n[start - 1]
+				== ';' || n[start - 1] == '.' || n[start - 1]
+				== '!' || n[start - 1] == '?' || n[start - 1]
+				== '"' || n[start - 1] == '(' || n[start - 1]
+				== ')' || n[start - 1] == '{' || n[start - 1]
 				== '}' || start == 0)
 			n[start] -= 32;
 		start++;
