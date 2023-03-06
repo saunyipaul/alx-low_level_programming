@@ -10,7 +10,7 @@
  * Return: always 0 otherwise 1
  */
 
-unsigned int _strspn(char *s, char* accept)
+unsigned int _strspn(char *s, char *accept)
 {
 	unsigned int num = 0;
 
