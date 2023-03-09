@@ -25,6 +25,13 @@ int is_prime_number(int n)
 	return (is_prime_helper(n, 3));
 }
 
+/**
+ * is_prime_helper - function to count
+ * @n: parameter
+ * @i: parameter
+ * Return: 1 otherwise 0
+ */
+
 int is_prime_helper(int n, int i)
 {
 	if (i * i > n)
