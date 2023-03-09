@@ -34,5 +34,5 @@ int is_prime_helper(int n, int i)
 	{
 		return (0);
 	}
-	return is_prime_helper(n, i + 2);
+	return (is_prime_helper(n, i + 2));
 }
