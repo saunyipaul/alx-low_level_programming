@@ -3,6 +3,7 @@
 
 /**
  * is_prime_number - function to check the prime numbers
+ * is_prime_helper - function to count numbers
  * @n: parameter
  * Return: prime number return 1 otherwise 0
  */
