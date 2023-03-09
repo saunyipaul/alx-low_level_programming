@@ -1,7 +1,9 @@
 #include <stdio.h>
+#include "main.h"
 
 /**
  * is_palindrome - function that checks a string is a palindrome
+ * _string_length - function to calculate string length
  * @s: parameter
  * an empty string is a palindrome
  * Return: if palindrome return 1 otherwise 0
@@ -27,6 +29,14 @@ int is_palindrome(char *s)
 	if (length <= 1)
 	{
 		return (1);
+	}
+	if (*s == ' ')
+	{
+		return (is_palindrome(s + 1));
+	}
+	if (*(s + length - 1) == ' ')
+	{
+		return (is_palindrome(s) && is_palindrome(s + length - 2));
 	}
 	if (*s == *(s + length - 1))
 	{
