@@ -4,7 +4,6 @@
  * _pow_recursion - function recursion of x power y
  * @x: parameter integer to power
  * @y: parameter to power with
- * 
  * Return: y < 0 return 1 otherwise 0
  */
 
