@@ -22,7 +22,7 @@ int _atoi(const char *str)
 		z = (z * 10) + (*str - '0');
 		str++;
 	}
-	return z * sign;
+	return (z * sign);
 }
 
 /**
