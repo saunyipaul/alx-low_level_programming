@@ -3,16 +3,17 @@
 #include <stdio.h>
 
 /**
- * **alloc_grid - entry of prototype function
+ * alloc_grid - entry of prototype function
  * function that returns a pointer to a 2 dimensional array of integers
  * @width: variable width
- * @height variable height
+ * @height: variable height
  * Return: return NUll on failure
  */
 
 int **alloc_grid(int width, int height)
 {
-	int i; int j;
+	int i;
+	int j;
 	int **grid;
 
 	if (width <= 0 || height <= 0)
