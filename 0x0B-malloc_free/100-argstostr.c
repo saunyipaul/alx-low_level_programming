@@ -30,7 +30,7 @@ char *argstostr(int ac, char **av)
 	{
 		return (NULL);
 	}
-	for (i =0; i < ac; i++)
+	for (i = 0; i < ac; i++)
 	{
 		strcpy(result + present_pos, av[i]);
 		present_pos += strlen(av[i]);
