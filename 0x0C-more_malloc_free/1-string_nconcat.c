@@ -6,6 +6,7 @@
  * *string_nconcat - entry point of prototype function
  * @s1: parameter
  * @s2: parameter
+ * @n: length of string
  * function that concatenates two strings
  * Return: fails return NULL if NULL passed empty string
  */
