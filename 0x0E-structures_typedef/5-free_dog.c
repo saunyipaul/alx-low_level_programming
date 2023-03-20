@@ -2,7 +2,7 @@
 #include "dog.h"
 
 /**
- * free_dogs - prototype function
+ * free_dog - prototype function
  * @d: variable
  * Return: void
  *
