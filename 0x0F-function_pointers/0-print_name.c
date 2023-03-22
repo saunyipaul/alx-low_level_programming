@@ -1,4 +1,6 @@
 #include "function_pointers.h"
+#include <stdlib.h>
+#include <string.h>
 
 /**
  * print_name - function prototype entry
