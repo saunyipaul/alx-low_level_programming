@@ -3,9 +3,9 @@
 #include <stdlib.h>
 
 /**
- * *add_node_end - function protype
+ * add_node_end - function protype
  * @head: pointer
- * @h: pointer
+ * @str: pointer
  * function that adds node at the end of a list_t
  * Return: address of the new element
  */
